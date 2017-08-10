@@ -1,31 +1,69 @@
 <!DOCTYPE html>
 <head>
     <title>Raddish</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Rainbow icon by Icons8 -->
     <link rel="icon" href="https://png.icons8.com/rainbow/color/24" title="Rainbow" width="24" height="24">
-    <link rel="stylesheet" href="css/style.css" type="text/css"/>  
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-    crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-    crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/scripts.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>      
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
     <!-- <img src="../img/Banner.jpg" alt="Banner"> -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" id="navbar">
-        <div class="container">
+     <nav class="navbar navbar-inverse navbar-fixed-top" id="navbar">
+        <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand navbar-left" id="name" href="index.html">Raddish</a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navMenu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                </button>
+                 <a class="navbar-brand navbar-center" id="name" href="#splash">Raddish</a> 
             </div>
-            <ul class="nav navbar-nav" style="display: block; margin: auto">
-                <li><a class="canClick" href="hmtl/About.hmtl">About</a></li>
-                <li><a class="canClick" href="hmtl/Media.hmtl">Media</a></li>
-                <li><a class="canClick" href="hmtl/Contact.hmtl">Contact</a></li>
-                <li><a class="canClick" href="https://lnfy.org/donate/">Donate</a></li>
-            </ul>
+            <div class="collapse navbar-collapse" id="navMenu">    
+                <ul class="nav navbar-nav" >
+                    <li><a class="canClick" href="#about">About</a></li>
+                    <li><a class="canClick" href="#media">Media</a></li>
+                    <li><a class="canClick" href="#donate">Donate</a></li>
+                    <li><a class="canClick" href="#contact">Contact</a></li>                    
+                </ul>
+            </div>
         </div>
-    </nav>
-            <img src="img/Banner.jpg" style="display: block; margin: auto; height: 80vh; top: 10vh; position: relative" alt="Banner" id="logo">
+    </nav> 
+    <div class="container-fluid">
+        <div id="splash" style="margin: 10vh 0vh;">
+            <div class="row">
+                <!-- <div class="col-sm-4 col-sm-offset-3" > -->
+                <img src="img/Banner.jpg" alt="Banner" id="logo" style="display: block; max-width: 100vw; margin: auto">                 
+                <!-- </div> -->
+            </div>
+        </div>
+        <div id="about" style="margin: 10vh 0vh;">
+            <div class="row">
+                <h2>Mission</h2>
+                <p>Sint enim enim consectetur consectetur ullamco. Laboris aliqua eiusmod do anim nisi veniam Lorem reprehenderit eu occaecat. Lorem incididunt aute in cillum esse excepteur sint irure adipisicing culpa exercitation sit do pariatur. Tempor nisi qui consectetur ipsum cupidatat ea minim anim elit id mollit ullamco veniam quis.</p>
+            </div>
+        </div>
+        <div id="media" style="margin: 10vh 0vh;">
+            <div class="row">
+                <h2>Media</h2>            
+                <p>Sint enim enim consectetur consectetur ullamco. Laboris aliqua eiusmod do anim nisi veniam Lorem reprehenderit eu occaecat. Lorem incididunt aute in cillum esse excepteur sint irure adipisicing culpa exercitation sit do pariatur. Tempor nisi qui consectetur ipsum cupidatat ea minim anim elit id mollit ullamco veniam quis.</p>                
+            </div>
+        </div>
+        <div id="donate" style="margin: 10vh 0vh;">
+            <div class="row">
+                <h2>Donate</h2>
+                <p>Sint enim enim consectetur consectetur ullamco. Laboris aliqua eiusmod do anim nisi veniam Lorem reprehenderit eu occaecat. Lorem incididunt aute in cillum esse excepteur sint irure adipisicing culpa exercitation sit do pariatur. Tempor nisi qui consectetur ipsum cupidatat ea minim anim elit id mollit ullamco veniam quis.</p>                
+            </div>
+        </div>
+        <div id="contact" style="margin: 10vh 0vh;">
+            <div class="row">
+                <h2>Contact</h2>
+                <p>Sint enim enim consectetur consectetur ullamco. Laboris aliqua eiusmod do anim nisi veniam Lorem reprehenderit eu occaecat. Lorem incididunt aute in cillum esse excepteur sint irure adipisicing culpa exercitation sit do pariatur. Tempor nisi qui consectetur ipsum cupidatat ea minim anim elit id mollit ullamco veniam quis.</p>                
+            </div>
+        </div>
+    </div>
 </body>

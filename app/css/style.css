@@ -1,13 +1,10 @@
- #navbar {
-    margin-top: 2vh;
+  
+#navbar {
+    /* margin-top: 2vh; */
     padding: 0;
     border: 0;
     border-radius: 0;
-    background-color: rgba(227, 215, 100, 1);
-}
-
-body {
-        background-color: rgba(227, 215, 100, 1) !important;
+    background-color: rgba(44, 176, 55, .9);
 }
 
 #navbar li a {
@@ -20,11 +17,18 @@ body {
 
 .canClick:hover {
     text-decoration: underline !important;
+} 
+
+
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: rgb(44, 176, 55);
+    border-radius: 40px;
 }
 
-li {
+/*li {
         margin: 0vw, 10vw;
-}
+} */
 
 /* li {
         height: 10vh;
