@@ -19,7 +19,18 @@
     text-decoration: underline !important;
 } 
 
+h1 {
+        font-size: 45px;
+}
 
+p {
+        font-size: 20px;
+}
+
+#content {
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+}
 
 .navbar-default .navbar-toggle .icon-bar {
     background-color: rgb(44, 176, 55);
